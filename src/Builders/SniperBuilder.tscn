@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Builders/SniperBuilder.gd" type="Script" id=1]
+[ext_resource path="res://src/Sniper/Sniper.tscn" type="PackedScene" id=2]
+
+[node name="SniperBuilder" type="Node2D"]
+script = ExtResource( 1 )
+SniperPath = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
